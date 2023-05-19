@@ -1,6 +1,6 @@
 <?php
 
-class activateaccountbyemailactivateModuleFrontController extends ModuleFrontController
+class ps_email_verificationactivateModuleFrontController extends ModuleFrontController
 {
     public function initContent()
     {
