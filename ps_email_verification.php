@@ -83,7 +83,7 @@ class ps_email_verification extends Module
                    NULL,
                    NULL,
                    NULL,
-            __DIR__ . 'mails');
+            _PS_MODULE_DIR_ . 'ps_email_verification/mails');
         Tools::redirect($this->context->link->getModuleLink($this->name, 'emailsentmessage'));
     }
 }
